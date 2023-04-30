@@ -27,7 +27,7 @@ const What = () => {
                 />
               </svg>
             </div>
-            <div className="mx-14">
+            <div className="lg:mx-14 ml-7">
               <h1 className="text-3xl font-semibold text-white">
                 Responsive Mobile
               </h1>
@@ -55,7 +55,7 @@ const What = () => {
                 />
               </svg>
             </div>
-            <div className="mx-14">
+            <div className="lg:mx-14 ml-7">
               <h1 className="text-3xl font-semibold text-white">
                 CSS Templates
               </h1>
@@ -83,7 +83,7 @@ const What = () => {
                 />
               </svg>
             </div>
-            <div className="mx-14">
+            <div className="lg:mx-14 ml-7">
               <h1 className="text-3xl font-semibold text-white">
                 UI & UX Design
               </h1>

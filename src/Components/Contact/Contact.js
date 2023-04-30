@@ -3,13 +3,13 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="bg-neutral-800 pb-12 pt-28 lg:flex lg:justify-between ">
-      <div className="mx-5 pt-28 lg:w-[55%] lg:px-32">
+      <div className=" pt-28 lg:w-[55%] lg:px-32">
         <div>
           <h1 className="text-4xl font-semibold text-white">CONTACT ME</h1>
         </div>
-        <div className="mt-20 ">
-          <div className="mt-6 flex justify-center">
-            <div class="w-[25%]">
+        <div className="mt-20 w-[90%] lg:w-full">
+          <div className="mt-6 flex justify-evenly lg:justify-center">
+            <div class="w-fit lg:w-[25%] ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -29,8 +29,8 @@ const Contact = () => {
               <h1 className=" text-2xl text-gray-500">86********</h1>
             </div>
           </div>
-          <div className="mt-6 flex justify-center">
-            <div class="w-[25%]">
+          <div className="mt-6 flex justify-evenly lg:justify-center">
+            <div class="w-fit lg:w-[25%] ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -52,8 +52,8 @@ const Contact = () => {
               </h1>
             </div>
           </div>
-          <div className="mt-6 flex justify-center">
-            <div class="w-[25%]">
+          <div className="mt-6 flex justify-evenly lg:justify-center">
+            <div class="w-fit lg:w-[25%] ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

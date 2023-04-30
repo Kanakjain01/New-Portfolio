@@ -1,5 +1,7 @@
 import React from "react";
-
+import schl1 from "../Images/portfolio/schl1.jpeg";
+import ed1 from "../Images/portfolio/ed1.jpeg";
+import trade1 from "../Images/portfolio/trade1.jpeg";
 const Portfolio = () => {
   return (
     <div className="bg-black px-5 pb-48 pt-40 lg:px-48">
@@ -10,30 +12,25 @@ const Portfolio = () => {
       <div className="mt-40">
         <div className="lg:flex lg:justify-evenly">
           <div>
-            <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
-              <img
-                className="lg:h-96 lg:w-96"
-                src="https://images.unsplash.com/photo-1551583899-d3f6258ec7c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGh0bWx8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-            </div>
-            {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
-            <article className="card mt-6">
-              <h3 className="text-red-400">ED.TECH</h3>
+            <a href="https://edtech-web-orpin.vercel.app/">
+              <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
+                <img className="lg:h-96 lg:w-96" src={ed1} alt="" />
+              </div>
+              {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
+              <article className="card mt-6">
+                <h3 className="text-red-400">ED.TECH</h3>
 
-              <span className="top"></span>
-              <span className="right"></span>
-              <span className="bottom"></span>
-              <span className="left"></span>
-            </article>
+                <span className="top"></span>
+                <span className="right"></span>
+                <span className="bottom"></span>
+                <span className="left"></span>
+              </article>
+            </a>
           </div>
           <div>
+            <a href="https://sspublic2.vercel.app/">
             <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
-              <img
-                className="lg:h-96 lg:w-96"
-                src="https://plus.unsplash.com/premium_photo-1676150789920-da4613e518e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGh0bWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
+              <img className="lg:h-96 lg:w-96" src={schl1} alt="" />
             </div>
             {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
             <article className="card mt-6">
@@ -44,8 +41,10 @@ const Portfolio = () => {
               <span className="bottom"></span>
               <span className="left"></span>
             </article>
+            </a>
           </div>
           <div>
+            <a href="https://github.com/Kanakjain01/newsapp.git">
             <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
               <img
                 className="lg:h-96 lg:w-96"
@@ -62,10 +61,12 @@ const Portfolio = () => {
               <span className="bottom"></span>
               <span className="left"></span>
             </article>
+            </a>
           </div>
         </div>
         <div className="lg:flex lg:justify-evenly">
           <div>
+            <a href="https://github.com/Kanakjain01/real-estate.git">
             <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
               <img
                 className="lg:h-96 lg:w-96"
@@ -75,21 +76,19 @@ const Portfolio = () => {
             </div>
             {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
             <article className="card mt-6">
-              <h3 className="text-red-400">TIC TAC TOE</h3>
+              <h3 className="text-red-400">REAL ESTATE</h3>
 
               <span className="top"></span>
               <span className="right"></span>
               <span className="bottom"></span>
               <span className="left"></span>
             </article>
+            </a>
           </div>
           <div>
+            <a href="https://642abab2fe1ad874cb30849b--silver-kelpie-86a961.netlify.app/">
             <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
-              <img
-                className="lg:h-96 lg:w-96"
-                src="https://images.unsplash.com/photo-1639431682289-72b9ebb75895?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29kZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
+              <img className="lg:h-96 lg:w-96" src={trade1} alt="" />
             </div>
             {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
             <article className="card mt-6">
@@ -100,8 +99,10 @@ const Portfolio = () => {
               <span className="bottom"></span>
               <span className="left"></span>
             </article>
+            </a>
           </div>
           <div>
+            <a href="https://github.com/Kanakjain01/kanakportfolio.git">
             <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
               <img
                 className="lg:h-96 lg:w-96"
@@ -118,6 +119,7 @@ const Portfolio = () => {
               <span className="bottom"></span>
               <span className="left"></span>
             </article>
+            </a>
           </div>
         </div>
       </div>
