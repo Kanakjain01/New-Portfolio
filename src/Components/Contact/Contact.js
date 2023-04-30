@@ -2,10 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-neutral-800 pb-12 pt-28 lg:flex lg:justify-between ">
-      <div className=" pt-28 lg:w-[55%] lg:px-32">
+    <div className="bg-neutral-800 pb-12 pt-28 lg:flex lg:justify-between px-5">
+      <div className=" pt-28 lg:w-[55%] lg:px-48">
         <div>
-          <h1 className="text-4xl font-semibold text-white">CONTACT ME</h1>
+          <h1 className="text-5xl font-semibold text-white">CONTACT ME</h1>
         </div>
         <div className="mt-20 w-[90%] lg:w-full">
           <div className="mt-6 flex justify-evenly lg:justify-center">

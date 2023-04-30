@@ -13,7 +13,7 @@ const Footer = () => {
             . All Rights Reserved.{" "}
           </span>
           {/* <!-- <hr className="mx-32 my-6 border-gray-200 dark:border-gray-700" /> --> */}
-          <div className="mx-40 mt-4 flex space-x-6">
+          <div className="mx-14 mt-4 flex space-x-6">
             <a
               href="https://instagram.com/developer234?igshid=ZDdkNTZiNTM="
               className="text-gray-500 hover:text-gray-900 dark:hover:text-red-400"

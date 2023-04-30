@@ -4,6 +4,7 @@ import Edtech from "../Images/project/Edtech.png";
 import Newsapp from "../Images/project/Newsapp.png";
 import Realestate from "../Images/project/Realestate.png";
 import Tradeg from "../Images/project/Tradeg.png";
+
 const Project = () => {
   return (
     <div className="bg-neutral-800 pb-28 pt-40">
@@ -15,37 +16,37 @@ const Project = () => {
       <div className="mt-24 lg:hidden">
         <div className="mt-9 flex justify-around">
           <div className="container w-60 p-2 cursor-pointer">
-            <img className=" h-44 " src={School} alt="" />
+            <img className=" h-40 " src={School} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">SCHOOL WEBSITE</div>
             </div>
           </div>
           <div className="container w-60 p-2 cursor-pointer">
-            <img className=" h-44 " src={Edtech} alt="" />
+            <img className=" h-40 " src={Edtech} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">ACADEMY WEBSITE</div>
             </div>
           </div>
         </div>
         <div className="mt-9 flex justify-around">
           <div className="container w-60 p-2 cursor-pointer">
-            <img className=" h-44 " src={Newsapp} alt="" />
+            <img className=" h-40 " src={Newsapp} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">NEWSAPP</div>
             </div>
           </div>
           <div className="container w-60 p-2 cursor-pointer">
-            <img className=" h-44 " src={Realestate} alt="" />
+            <img className=" h-40 " src={Realestate} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">REAL ESTATE</div>
             </div>
           </div>
         </div>
-        <div className="mx-3 mt-9">
-          <div className="container w-80 p-2 cursor-pointer">
-            <img className=" h-44 " src={Tradeg} alt="" />
+        <div className=" mt-9 ">
+          <div className="container  p-2 cursor-pointer">
+            <img className=" h-40 " src={Tradeg} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">TRADEG</div>
             </div>
           </div>
         </div>
@@ -56,19 +57,19 @@ const Project = () => {
           <div className="container w-[32%] cursor-pointer">
             <img className="h-64" src={Realestate} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">REAL ESTATE</div>
             </div>
           </div>
           <div className="container w-[32%] cursor-pointer">
             <img className="h-64" src={Tradeg} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">TRADEG</div>
             </div>
           </div>
           <div className="container w-[32%] cursor-pointer">
             <img className="h-64" src={Newsapp} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">NEWSAPP</div>
             </div>
           </div>
         </div>
@@ -76,13 +77,13 @@ const Project = () => {
           <div className="container w-[48%] cursor-pointer">
             <img className="w-[100%] h-96" src={School} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">SCHOOL WEBSITE</div>
             </div>
           </div>
           <div className="container w-[48%] cursor-pointer">
             <img className="w-[100%] h-96" src={Edtech} alt="" />
             <div className="overlay opacity-80">
-              <div className="text font-bold text-white">Web design</div>
+              <div className="text font-bold text-white">ACADEMY WEBSITE</div>
             </div>
           </div>
         </div>
