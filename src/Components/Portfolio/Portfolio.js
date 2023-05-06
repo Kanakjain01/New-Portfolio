@@ -2,7 +2,7 @@ import React from "react";
 import schl1 from "../Images/portfolio/schl1.jpeg";
 import ed1 from "../Images/portfolio/ed1.jpeg";
 import trade1 from "../Images/portfolio/trade1.jpeg";
-import port from "../Images/portfolio/port.jpeg";
+import port2 from "../Images/portfolio/port2.jpeg";
 const Portfolio = () => {
   return (
     <div className="bg-black px-5 pb-48 pt-40 lg:px-48">
@@ -105,7 +105,7 @@ const Portfolio = () => {
           <div>
             <a href="https://kanakportfolio.vercel.app/">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
-                <img className="lg:h-96 lg:w-96" src={port} alt="" />
+                <img className="lg:h-96 lg:w-96" src={port2} alt="" />
               </div>
               {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
               <article className="card mt-6">

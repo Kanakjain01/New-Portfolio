@@ -1,8 +1,9 @@
 import React from "react";
 // import unsplash from "../Images/home/unsplash.jpg"
+// import kanak from "../Images/home/kanak.jpeg"
 const Home = () => {
   return (
-    <div className="home-heading pt-32 text-center ">
+    <div className="home-heading text-center ">
       <div>
         <h1 className="pt-24 text-3xl text-white font-bold lg:text-4xl">
           Simple and Elegant

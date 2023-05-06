@@ -3,7 +3,7 @@ import React from "react";
 const What = () => {
   return (
     <div id="what-i-do">
-      <div className="bg-neutral-800 pb-28 pt-48">
+      <div className="bg-neutral-800 pb-28 pt-20">
         <div>
           <h1 className="text-center text-5xl font-semibold text-white">
             WHAT I DO
