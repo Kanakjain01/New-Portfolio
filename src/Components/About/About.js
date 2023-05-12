@@ -137,16 +137,16 @@ const About = () => {
               <span className="text-xl font-medium dark:text-white">
                 GITHUB
               </span>
-              <span className="text-lg font-medium dark:text-white">50%</span>
+              <span className="text-lg font-medium dark:text-white">95%</span>
             </div>
             <div className="mt-2 rounded-full bg-gray-200">
               <div
                 className="h-2 rounded-full bg-red-400"
-                style={{ width: "50%" }}
+                style={{ width: "95%" }}
               ></div>
             </div>
           </div>
-          <div className="mt-9">
+          {/* <div className="mt-9">
             <div className="mb-1 flex justify-between">
               <span className="text-xl font-medium dark:text-white">
                 VISUAL STUDIO
@@ -159,7 +159,7 @@ const About = () => {
                 style={{ width: "95%" }}
               ></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

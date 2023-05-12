@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-xl text-gray-500 dark:text-gray-400 sm:text-center">
             © 2023{" "}
-            <a href="https://kanakjain639@gmail.com" className="hover:underline">
+            <a href="https://kanakportfolio.vercel.app/" className="hover:underline">
               Portfolio™
             </a>
-            . All Rights Reserved.{" "}
+            . All Rights Reserved by Developer  Kanak Jain{" "}
           </span>
           {/* <!-- <hr className="mx-32 my-6 border-gray-200 dark:border-gray-700" /> --> */}
           <div className="mx-14 mt-4 flex space-x-6">
