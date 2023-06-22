@@ -55,24 +55,24 @@ const About = () => {
           <div className="mt-9">
             <div className="mb-1 flex justify-between">
               <span className="text-xl font-medium dark:text-white">HTML</span>
-              <span className="text-lg font-medium dark:text-white">95%</span>
+              <span className="text-lg font-medium dark:text-white">100%</span>
             </div>
             <div className="mt-2 rounded-full bg-gray-200">
               <div
                 className="h-2 rounded-full bg-red-400"
-                style={{ width: "95%" }}
+                style={{ width: "100%" }}
               ></div>
             </div>
           </div>
           <div className="mt-9">
             <div className="mb-1 flex justify-between">
               <span className="text-xl font-medium dark:text-white">CSS</span>
-              <span className="text-lg font-medium dark:text-white">95%</span>
+              <span className="text-lg font-medium dark:text-white">100%</span>
             </div>
             <div className="mt-2 rounded-full bg-gray-200">
               <div
                 className="h-2 rounded-full bg-red-400"
-                style={{ width: "95%" }}
+                style={{ width: "100%" }}
               ></div>
             </div>
           </div>
@@ -95,12 +95,12 @@ const About = () => {
               <span className="text-xl font-medium dark:text-white">
                 REACT JS
               </span>
-              <span className="text-lg font-medium dark:text-white">45%</span>
+              <span className="text-lg font-medium dark:text-white">55%</span>
             </div>
             <div className="mt-2 rounded-full bg-gray-200">
               <div
                 className="h-2 rounded-full bg-red-400"
-                style={{ width: "45%" }}
+                style={{ width: "55%" }}
               ></div>
             </div>
           </div>
@@ -109,12 +109,12 @@ const About = () => {
               <span className="text-xl font-medium dark:text-white">
                 BOOTSTRAP
               </span>
-              <span className="text-lg font-medium dark:text-white">95%</span>
+              <span className="text-lg font-medium dark:text-white">100%</span>
             </div>
             <div className="mt-2 rounded-full bg-gray-200">
               <div
                 className="h-2 rounded-full bg-red-400"
-                style={{ width: "95%" }}
+                style={{ width: "100%" }}
               ></div>
             </div>
           </div>
@@ -123,12 +123,12 @@ const About = () => {
               <span className="text-xl font-medium dark:text-white">
                 TAILWIND CSS
               </span>
-              <span className="text-lg font-medium dark:text-white">95%</span>
+              <span className="text-lg font-medium dark:text-white">100%</span>
             </div>
             <div className="mt-2 rounded-full bg-gray-200">
               <div
                 className="h-2 rounded-full bg-red-400"
-                style={{ width: "95%" }}
+                style={{ width: "100%" }}
               ></div>
             </div>
           </div>
@@ -137,12 +137,12 @@ const About = () => {
               <span className="text-xl font-medium dark:text-white">
                 GITHUB
               </span>
-              <span className="text-lg font-medium dark:text-white">95%</span>
+              <span className="text-lg font-medium dark:text-white">100%</span>
             </div>
             <div className="mt-2 rounded-full bg-gray-200">
               <div
                 className="h-2 rounded-full bg-red-400"
-                style={{ width: "95%" }}
+                style={{ width: "100%" }}
               ></div>
             </div>
           </div>
