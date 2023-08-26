@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div id="about">
-      <div className="bg-black px-5 pb-44 pt-44 lg:flex lg:justify-around lg:p-24 lg:pt-48">
-        <div className="lg:w-[40%]">
+      <div className="bg-black px-5 pb-44 pt-44 lg:flex lg:justify-evenly lg:p-24 lg:w-[1005] lg:pt-48">
+        <div className="lg:w-[55%]">
           <h1 className="text-5xl font-semibold text-white">ABOUT KANAK</h1>
           <h2 className="mt-6 text-2xl font-bold text-red-400">
             DEVELOPER & DESIGNER
@@ -51,7 +51,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="mt-12 lg:w-[40%]">
+        <div className="mt-12 lg:w-[35%] lg:mt-28">
           <div className="mt-9">
             <div className="mb-1 flex justify-between">
               <span className="text-xl font-medium dark:text-white">HTML</span>
@@ -95,12 +95,12 @@ const About = () => {
               <span className="text-xl font-medium dark:text-white">
                 REACT JS
               </span>
-              <span className="text-lg font-medium dark:text-white">55%</span>
+              <span className="text-lg font-medium dark:text-white">75%</span>
             </div>
             <div className="mt-2 rounded-full bg-gray-200">
               <div
                 className="h-2 rounded-full bg-red-400"
-                style={{ width: "55%" }}
+                style={{ width: "75%" }}
               ></div>
             </div>
           </div>

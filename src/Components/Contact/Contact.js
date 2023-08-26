@@ -2,14 +2,14 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-neutral-800 pb-12 pt-28 lg:flex lg:justify-between px-5">
-      <div className=" pt-28 lg:w-[55%] lg:px-48">
+    <div className="bg-neutral-800 pb-12 pt-28 lg:flex lg:w-[100%] lg:pl-44  px-5">
+      <div className=" pt-28 lg:w-[45%] ">
         <div>
           <h1 className="text-5xl font-semibold text-white">CONTACT ME</h1>
         </div>
-        <div className="mt-20 w-[90%] lg:w-full">
-          <div className="mt-6 flex justify-evenly lg:justify-center">
-            <div class="w-fit lg:w-[25%] ">
+        <div className="mt-20 w-[100%] lg:pl-12 ">
+          <div className="mt-6 flex  ">
+            <div class="  hover:animate-pulse ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -25,12 +25,12 @@ const Contact = () => {
                 />
               </svg>
             </div>
-            <div class="w-[65%]">
-              <h1 className=" text-2xl text-gray-500">86********</h1>
+            <div class="ml-4">
+              <h1 className=" text-xl mt-2 text-gray-500">86********</h1>
             </div>
           </div>
-          <div className="mt-6 flex justify-evenly lg:justify-center">
-            <div class="w-fit lg:w-[25%] ">
+          <div className="mt-6 flex  ">
+            <div class="   hover:animate-pulse">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -46,14 +46,14 @@ const Contact = () => {
                 />
               </svg>
             </div>
-            <div class="w-[65%]">
-              <h1 className=" text-2xl text-gray-500">
+            <div class="ml-4">
+              <h1 className=" text-xl mt-2 text-gray-500">
                 kanakjain639@gmail.com
               </h1>
             </div>
           </div>
-          <div className="mt-6 flex justify-evenly lg:justify-center">
-            <div class="w-fit lg:w-[25%] ">
+          <div className="mt-6 flex  ">
+            <div class="  hover:animate-pulse ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -74,23 +74,25 @@ const Contact = () => {
                 />
               </svg>
             </div>
-            <div class="w-[65%]">
-              <h1 className=" text-2xl text-gray-500">Agra , U.P , India</h1>
+            <div class="ml-4">
+              <h1 className=" text-xl text-gray-500 mt-2">
+                Agra , U.P , India
+              </h1>
             </div>
           </div>
         </div>
       </div>
-      <div className="mx-5 pt-20 lg:w-[55%]">
-        <div className="mt-9 lg:mx-28">
+      <div className=" pt-20 lg:w-[45%] mx-auto">
+        <div className="mt-9 ">
           <input
-            className="h-16 w-11/12 border border-x-2 border-y-2 px-9 text-2xl focus:outline-none"
+            className="h-16 w-80 border border-x-2 border-y-2 px-9 text-2xl focus:outline-none lg:w-10/12  "
             type="name"
             name="your_name"
             id="your_name"
             placeholder="Your Name"
           />
           <input
-            className="mt-10 h-16 w-11/12 border border-x-2 border-y-2 px-9 text-2xl focus:outline-none"
+            className="mt-10 h-16 w-80 border border-x-2 border-y-2 px-9 text-2xl focus:outline-none lg:w-10/12 "
             type="email"
             name="your_email"
             id="your_email"
@@ -98,7 +100,7 @@ const Contact = () => {
           />
 
           <textarea
-            className="mt-10 w-11/12 border border-x-2 border-y-2 px-9 pt-4 text-2xl"
+            className="mt-10 w-80 border border-x-2 border-y-2 px-9 pt-4 text-2xl lg:w-10/12 "
             name="mesaage"
             id=""
             cols="20"
@@ -106,7 +108,7 @@ const Contact = () => {
             placeholder="Your Message"
           ></textarea>
           {/* <!-- <input className="hover: mx-5 mt-10 h-96 w-11/12 pb-80  cursor-pointer border border-x-2 border-y-2 px-9 text-2xl focus:outline-none" type="name" name="your_name" id="your_name" placeholder="Message" /> --> */}
-          <button className="mt-10 h-16 w-11/12 cursor-pointer bg-red-400 px-9 py-3 text-xl text-white hover:bg-white hover:text-red-400">
+          <button className="mt-10 h-16 w-80 cursor-pointer bg-red-400 px-9 py-3 text-xl text-white lg:w-10/12  hover:bg-white hover:text-red-400">
             SEND ME
           </button>
         </div>

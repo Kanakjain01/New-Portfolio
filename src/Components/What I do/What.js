@@ -9,8 +9,8 @@ const What = () => {
             WHAT I DO
           </h1>
         </div>
-        <div className="mx-5 lg:mx-32 lg:flex">
-          <div className="mt-16 flex">
+        <div className="mx-5 lg:flex lg:w-[100%] lg:justify-evenly lg:px-12">
+          <div className="mt-16 flex lg:w-[30%]">
             <div className="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ const What = () => {
                 />
               </svg>
             </div>
-            <div className="lg:mx-14 ml-7">
+            <div className=" ml-7">
               <h1 className="text-3xl font-semibold text-white">
                 Responsive Mobile
               </h1>
@@ -38,7 +38,7 @@ const What = () => {
             </div>
           </div>
 
-          <div className="mt-16 flex">
+          <div className="mt-16 flex lg:w-[30%]">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const What = () => {
                 />
               </svg>
             </div>
-            <div className="lg:mx-14 ml-7">
+            <div className=" ml-7">
               <h1 className="text-3xl font-semibold text-white">
                 CSS Templates
               </h1>
@@ -66,7 +66,7 @@ const What = () => {
             </div>
           </div>
 
-          <div className="mt-16 flex">
+          <div className="mt-16 flex lg:w-[30%]">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ const What = () => {
                 />
               </svg>
             </div>
-            <div className="lg:mx-14 ml-7">
+            <div className=" ml-7">
               <h1 className="text-3xl font-semibold text-white">
                 UI & UX Design
               </h1>

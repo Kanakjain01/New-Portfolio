@@ -11,8 +11,8 @@ const Portfolio = () => {
         <h1 className="mt-5 text-2xl text-gray-500">Featured Works</h1>
       </div>
       <div className="mt-40">
-        <div className="lg:flex lg:justify-evenly">
-          <div>
+        <div className="lg:flex lg:justify-evenly lg:w-[100%]">
+          <div class="lg:w-[30%]">
             <a href="https://edtech-web-orpin.vercel.app/">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img className="lg:h-96 lg:w-96" src={ed1} alt="" />
@@ -28,7 +28,7 @@ const Portfolio = () => {
               </article>
             </a>
           </div>
-          <div>
+          <div class="lg:w-[30%]">
             <a href="https://sspublic2.vercel.app/">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img className="lg:h-96 lg:w-96" src={schl1} alt="" />
@@ -44,7 +44,7 @@ const Portfolio = () => {
               </article>
             </a>
           </div>
-          <div>
+          <div class="lg:w-[30%]">
             <a href="https://github.com/Kanakjain01/newsapp.git">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img
@@ -65,8 +65,8 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <div className="lg:flex lg:justify-evenly">
-          <div>
+        <div className="lg:flex lg:justify-evenly  lg:w-[100%]">
+          <div  class="lg:w-[30%]">
             <a href="https://github.com/Kanakjain01/real-estate.git">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img
@@ -86,7 +86,7 @@ const Portfolio = () => {
               </article>
             </a>
           </div>
-          <div>
+          <div  class="lg:w-[30%]">
             <a href="https://642abab2fe1ad874cb30849b--silver-kelpie-86a961.netlify.app/">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img className="lg:h-96 lg:w-96" src={trade1} alt="" />
@@ -102,7 +102,7 @@ const Portfolio = () => {
               </article>
             </a>
           </div>
-          <div>
+          <div  class="lg:w-[30%]">
             <a href="https://kanakportfolio.vercel.app/">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img className="lg:h-96 lg:w-96" src={port2} alt="" />
