@@ -9,45 +9,53 @@ const About = () => {
           <h2 className="mt-6 text-2xl font-bold text-red-400">
             DEVELOPER & DESIGNER
           </h2>
-          <p className="mt-10 text-xl text-gray-400">
-            My name is{" "}
+          <p className="mt-10 text-xl text-gray-400 lg:text-lg">
+            I'm{" "}
             <a class=" font-bold text-gray-100 hover:text-red-400 ">
               {" "}
               KANAK JAIN
             </a>
-            , and I am pursuing a BTech in Computer Science. I have a strong
-            passion for technology, and I am excited about the endless
-            possibilities that computer science offers. As a fresher in this
-            field, I am eager to learn and gain experience by working on
-            challenging projects that can help me develop my skills further.
-            During my academic years, I have acquired a strong foundation in
-            programming languages. I have also worked on various projects that
-            have helped me gain hands-on experience in web development, mobile
-            application development, and data analysis. I am looking forward to
-            leveraging my skills and knowledge to contribute to an organization
-            that values innovation and creativity. I believe that my eagerness
-            to learn, coupled with my technical skills, can make a significant
-            contribution to any project or team.
+            , an alumnus with a BTech in Computer Science and a co-founder of
+            SeventhEase, a thriving startup. My academic odyssey has kindled an
+            unquenchable fascination with technology. The vast uncharted
+            territories of computer science beckon to me, promising limitless
+            opportunities. Armed with an invigorating perspective in this
+            ever-evolving domain, I stand ready to assimilate knowledge and
+            nurture proficiency by embracing intricate ventures.
+            <br />
+            <br />
+            My academic escapades have laid the bedrock of a robust programming
+            language foundation. I've plunged into an array of projects spanning
+            the realms of web development, crafting mobile applications, and
+            deciphering data's hidden tales. These immersive experiences have
+            not only honed my skills but also enriched my perspectives. The
+            siren call of innovation and boundless creativity drives me to seek
+            an ecosystem that mirrors these very ideals.
           </p>
           {/* <br /> */}
-          <p className="mt-10 text-xl text-gray-400">
-            I have a strong foundation in programming languages such as{" "}
+          <p className="mt-10 text-xl text-gray-400 lg:text-lg">
+            My prowess extends gracefully to programming languages, libraries,
+            and frameworks such as{" "}
             <a class=" font-bold text-gray-100 hover:text-red-400 ">
               {" "}
-              HTML , CSS{" "}
+              HTML, CSS, JavaScript, React, and Node.js.{" "}
             </a>
-            , as well as experience with tools and technologies such as{" "}
+            Trusty companions like{" "}
             <a class=" font-bold text-gray-100 hover:text-red-400 ">
-              Git, GitHub
+              Git, GitHub, and
             </a>
             , and{" "}
-            <a class=" font-bold text-gray-100 hover:text-red-400 ">
-              Visual Studio
+            <a class=" font-bold text-gray-100 hover:text-red-400 lg:gap-x-2">
+              Visual Studio 
             </a>
-            . As a fresher, I am eager to learn and develop new skills. I have
-            also worked on various extracurricular activities and side projects,
-            including participating in coding competitions and contributing to
-            open-source projects.
+            are my guides. Unwavering in my ardor for learning, I'm an eager
+            newcomer determined to master novel skills. My journey spills beyond
+            the classroom, embracing coding contests and contributing to
+            open-source realms.
+            <br />
+            Confidently, I assert that my unbridled zest for learning,
+            harmonized with my technical finesse, positions me uniquely to usher
+            profound contributions into any project or collective endeavor.
           </p>
         </div>
 

@@ -15,7 +15,7 @@ const Home = () => {
 
       <div className="mx-14">
         <h1 className="animate-text-change mt-20 font-serif text-5xl text-white lg:text-4xl h-24"></h1>
-        <p className="mt-10 text-xl font-serif leading-6 text-white lg:mx-96">
+        <p className="mt-10  text-xl font-serif leading-6 text-white lg:mx-96">
           My interests are in Front End Engineering, and I love to create
           beautiful and performant products with delightful user experiences.
         </p>
