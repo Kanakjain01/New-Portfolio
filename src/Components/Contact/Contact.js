@@ -1,33 +1,32 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-
-
   const [data, setData] = useState({
-    name:"",
-    email:"",
-    message:""
-  })
+    name: "",
+    email: "",
+    message: "",
+  });
 
-
-  const submitfunc = async()=>{
+  const submitfunc = async () => {
     const postData = {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        name:data.name,
-        email:data.email,
-        message:data.message
-      })
+        name: data.name,
+        email: data.email,
+        message: data.message,
+      }),
     };
-    const user_response = await fetch("http://localhost:3000/user/createuser",postData)
-    const user_response_json = await user_response.json()
-    console.log(user_response_json,"here is response")
+    const user_response = await fetch(
+      "http://localhost:3000/user/createuser",
+      postData
+    );
+    const user_response_json = await user_response.json();
+    console.log(user_response_json, "here is response");
+  };
 
-  }
-  
   // call kro kaise mere ko call kro pglu
   return (
     <div className="bg-neutral-800 pb-12 pt-28 lg:flex lg:w-[100%] lg:pl-44  px-5">
@@ -54,7 +53,7 @@ const Contact = () => {
               </svg>
             </div>
             <div class="ml-4">
-              <h1 className=" text-xl mt-2 text-gray-500">86********</h1>
+              <h1 className=" text-xl mt-2 text-gray-500">8532027636</h1>
             </div>
           </div>
           <div className="mt-6 flex  ">
@@ -76,7 +75,7 @@ const Contact = () => {
             </div>
             <div class="ml-4">
               <h1 className=" text-xl mt-2 text-gray-500">
-                kanakjain639@gmail.com
+                arpitrathore453@gmail.com
               </h1>
             </div>
           </div>
@@ -117,7 +116,9 @@ const Contact = () => {
             type="name"
             name="name"
             value={data.name}
-            onChange={(e)=>{setData({...data,name:e.target.value})}}
+            onChange={(e) => {
+              setData({ ...data, name: e.target.value });
+            }}
             id="your_name"
             placeholder="Your Name"
           />
@@ -125,7 +126,9 @@ const Contact = () => {
             className="mt-10 h-16 w-80 border border-x-2 border-y-2 px-9 text-2xl focus:outline-none lg:w-10/12 "
             type="email"
             value={data.email}
-            onChange={(e)=>{setData({...data,email:e.target.value})}}
+            onChange={(e) => {
+              setData({ ...data, email: e.target.value });
+            }}
             name="your_email"
             id="your_email"
             placeholder="Your Email"
@@ -135,14 +138,21 @@ const Contact = () => {
             className="mt-10 w-80 border border-x-2 border-y-2 px-9 pt-4 text-2xl lg:w-10/12 "
             name="mesaage"
             value={data.message}
-            onChange={(e)=>{setData({...data,message:e.target.value})}}
+            onChange={(e) => {
+              setData({ ...data, message: e.target.value });
+            }}
             id=""
             cols="20"
             rows="5"
             placeholder="Your Message"
           ></textarea>
           {/* <!-- <input className="hover: mx-5 mt-10 h-96 w-11/12 pb-80  cursor-pointer border border-x-2 border-y-2 px-9 text-2xl focus:outline-none" type="name" name="your_name" id="your_name" placeholder="Message" /> --> */}
-          <button onClick={()=>{submitfunc()}} className="mt-10 h-16 w-80 cursor-pointer bg-red-400 px-9 py-3 text-xl text-white lg:w-10/12  hover:bg-white hover:text-red-400">
+          <button
+            onClick={() => {
+              submitfunc();
+            }}
+            className="mt-10 h-16 w-80 cursor-pointer bg-red-400 px-9 py-3 text-xl text-white lg:w-10/12  hover:bg-white hover:text-red-400"
+          >
             SEND ME
           </button>
         </div>

@@ -5,7 +5,7 @@ const About = () => {
     <div id="about">
       <div className="bg-black px-5 pb-44 pt-44 lg:flex lg:justify-evenly lg:p-24 lg:w-[1005] lg:pt-48">
         <div className="lg:w-[55%]">
-          <h1 className="text-5xl font-semibold text-white">ABOUT KANAK</h1>
+          <h1 className="text-5xl font-semibold text-white">ABOUT ARPIT</h1>
           <h2 className="mt-6 text-2xl font-bold text-red-400">
             DEVELOPER & DESIGNER
           </h2>
@@ -13,7 +13,8 @@ const About = () => {
             I'm{" "}
             <a class=" font-bold text-gray-100 hover:text-red-400 ">
               {" "}
-              KANAK JAIN
+              {/* KANAK JAIN */}
+              ARPIT RATHORE
             </a>
             , an alumnus with a BTech in Computer Science and a co-founder of
             SeventhEase, a thriving startup. My academic odyssey has kindled an

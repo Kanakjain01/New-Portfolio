@@ -32,7 +32,7 @@ const What = () => {
                 Responsive Mobile
               </h1>
               <p className="mt-6 text-xl text-gray-400">
-                Kanak CSS Template is designed by templatemo. Download, edit and
+              CSS Template is designed by templatemo. Download, edit and
                 use this layout.
               </p>
             </div>

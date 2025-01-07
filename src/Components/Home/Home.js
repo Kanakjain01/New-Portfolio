@@ -9,7 +9,7 @@ const Home = () => {
           Simple and Elegant
         </h1>
         <button className="mt-14 border-4 border-red-400 px-12 py-6 font-mono text-6xl tracking-wider text-red-400 lg:px-20 lg:py-6">
-          Kanak
+          Arpit
         </button>
       </div>
 
@@ -24,24 +24,25 @@ const Home = () => {
         </button>
       </div>
       <div className="flex fixed h-22 bottom-8 left-8 w-fit flex-col justify-evenly z-10  ">
-      <button class="  inline-flex items-center justify-center p-0.5  mb-2 mr-2 overflow-hidden text-sm font-medium  group bg-gradient-to-br from-pink-900 to-gray-900 group-hover:from-pink-900 group-hover:to-gray-900 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 ">
-          <a href="https://in.docworkspace.com/d/sILGPpsS-AZWJv6UG">
-          <span class="relative text-xl px-6  transition-all ease-in duration-75 bg-gradient-to-br from-pink-900 to-gray-900  text-white rounded-md group-hover:bg-opacity-0 hover:text-black">
+        <button class="  inline-flex items-center justify-center p-0.5  mb-2 mr-2 overflow-hidden text-sm font-medium  group bg-gradient-to-br from-pink-900 to-gray-900 group-hover:from-pink-900 group-hover:to-gray-900 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 ">
+          <a 
+          // href="https://in.docworkspace.com/d/sILGPpsS-AZWJv6UG"
+          href="https://in.docworkspace.com/d/sIECPpsS-Ae7p77sG"
+          >
+            <span class="relative text-xl px-6  transition-all ease-in duration-75 bg-gradient-to-br from-pink-900 to-gray-900  text-white rounded-md group-hover:bg-opacity-0 hover:text-black">
               RESUME
             </span>
           </a>
         </button>
 
-        <button class="  inline-flex items-center justify-center p-0.5  mb-2 mr-2 overflow-hidden text-sm font-medium  group bg-gradient-to-br from-pink-900 to-gray-900 group-hover:from-pink-900 group-hover:to-gray-900 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 ">
+        {/* <button class="  inline-flex items-center justify-center p-0.5  mb-2 mr-2 overflow-hidden text-sm font-medium  group bg-gradient-to-br from-pink-900 to-gray-900 group-hover:from-pink-900 group-hover:to-gray-900 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 ">
           <a href="https://in.docworkspace.com/d/sIB2PpsS-Ad-Hv6UG">
-          <span class="relative text-xl px-6  transition-all ease-in duration-75 bg-gradient-to-br from-pink-900 to-gray-900  text-white rounded-md group-hover:bg-opacity-0 hover:text-black">
+            <span class="relative text-xl px-6  transition-all ease-in duration-75 bg-gradient-to-br from-pink-900 to-gray-900  text-white rounded-md group-hover:bg-opacity-0 hover:text-black">
               CV
             </span>
           </a>
-        </button>
+        </button> */}
       </div>
-
-      
     </div>
   );
 };

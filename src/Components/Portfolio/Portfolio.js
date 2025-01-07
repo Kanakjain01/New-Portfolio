@@ -44,7 +44,7 @@ const Portfolio = () => {
               </article>
             </a>
           </div>
-          <div class="lg:w-[30%]">
+          {/* <div class="lg:w-[30%]">
             <a href="https://github.com/Kanakjain01/newsapp.git">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img
@@ -53,7 +53,7 @@ const Portfolio = () => {
                   alt=""
                 />
               </div>
-              {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
+              
               <article className="card mt-6">
                 <h3 className="text-red-400">NEWSAPP</h3>
 
@@ -63,10 +63,10 @@ const Portfolio = () => {
                 <span className="left"></span>
               </article>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="lg:flex lg:justify-evenly  lg:w-[100%]">
-          <div  class="lg:w-[30%]">
+          {/* <div  class="lg:w-[30%]">
             <a href="https://github.com/Kanakjain01/real-estate.git">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img
@@ -75,7 +75,7 @@ const Portfolio = () => {
                   alt=""
                 />
               </div>
-              {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
+             
               <article className="card mt-6">
                 <h3 className="text-red-400">REAL ESTATE</h3>
 
@@ -85,7 +85,7 @@ const Portfolio = () => {
                 <span className="left"></span>
               </article>
             </a>
-          </div>
+          </div> */}
           <div  class="lg:w-[30%]">
             <a href="https://642abab2fe1ad874cb30849b--silver-kelpie-86a961.netlify.app/">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
@@ -102,12 +102,12 @@ const Portfolio = () => {
               </article>
             </a>
           </div>
-          <div  class="lg:w-[30%]">
+          {/* <div  class="lg:w-[30%]">
             <a href="https://kanakportfolio.vercel.app/">
               <div className="mt-10 scale-95 cursor-pointer duration-500 ease-in hover:scale-100">
                 <img className="lg:h-96 lg:w-96" src={port2} alt="" />
               </div>
-              {/* <!-- <button className="text-green-400 border-black p-3 px-52 mx-3 cursor-pointer ">CODE</button> --> */}
+              
               <article className="card mt-6">
                 <h3 className="text-red-400">PORTFOLIO</h3>
 
@@ -117,7 +117,7 @@ const Portfolio = () => {
                 <span className="left"></span>
               </article>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
