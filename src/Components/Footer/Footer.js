@@ -14,12 +14,12 @@ const Footer = () => {
               Portfolio™
             </a> */}
             {/* . All Rights Reserved by Developer Kanak Jain{" "} */}
-            . All Rights Reserved by Developer Arpit Rathore{" "}
+            . All Rights Reserved by Developer Kanak Jain{" "}
           </span>
           {/* <!-- <hr className="mx-32 my-6 border-gray-200 dark:border-gray-700" /> --> */}
           <div className="mx-14 mt-4 flex space-x-6">
-            <a
-              href="https://www.instagram.com/_arpt_/profilecard/?igsh=OTJpeGFtNzltYmN4"
+            {/* <a
+              // href="https://www.instagram.com/_arpt_/profilecard/?igsh=OTJpeGFtNzltYmN4"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-red-400"
             >
               <svg
@@ -35,11 +35,11 @@ const Footer = () => {
                 />
               </svg>
               <span className="sr-only">Instagram page</span>
-            </a>
+            </a> */}
 
             <a
               // href="https://github.com/Kanakjain01"
-              href ="https://github.com/uchia01"
+              // href ="https://github.com/uchia01"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-red-400"
             >
               <svg
@@ -57,8 +57,8 @@ const Footer = () => {
               <span className="sr-only">GitHub account</span>
             </a>
             <a
-              // href="https://kanakjain639@gmail.com"
-              href="https://arpitrathore453@gmail.com"
+              href="https://kanakjain639@gmail.com"
+              // href="https://arpitrathore453@gmail.com"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-red-400"
             >
               <svg

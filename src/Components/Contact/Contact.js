@@ -53,7 +53,7 @@ const Contact = () => {
               </svg>
             </div>
             <div class="ml-4">
-              <h1 className=" text-xl mt-2 text-gray-500">8532027636</h1>
+              <h1 className=" text-xl mt-2 text-gray-500">6399821605</h1>
             </div>
           </div>
           <div className="mt-6 flex  ">
@@ -75,7 +75,7 @@ const Contact = () => {
             </div>
             <div class="ml-4">
               <h1 className=" text-xl mt-2 text-gray-500">
-                arpitrathore453@gmail.com
+                kanakjain639@gmail.com
               </h1>
             </div>
           </div>
