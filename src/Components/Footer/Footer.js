@@ -13,8 +13,8 @@ const Footer = () => {
             >
               Portfolio™
             </a> */}
-            {/* . All Rights Reserved by Developer Kanak Jain{" "} */}
-            . All Rights Reserved by Developer Kanak Jain{" "}
+            {/* . All Rights Reserved by Developer Kanak Jain{" "} */}. All
+            Rights Reserved by Developer Kanak Jain{" "}
           </span>
           {/* <!-- <hr className="mx-32 my-6 border-gray-200 dark:border-gray-700" /> --> */}
           <div className="mx-14 mt-4 flex space-x-6">
@@ -84,7 +84,7 @@ const Footer = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -98,7 +98,7 @@ const Footer = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -112,7 +112,7 @@ const Footer = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 448 512"
               >

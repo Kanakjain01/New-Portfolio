@@ -11,7 +11,7 @@ const About = () => {
           </h2>
           <p className="mt-10 text-xl text-gray-400 lg:text-lg">
             I'm{" "}
-            <a class=" font-bold text-gray-100 hover:text-red-400 ">
+            <a className=" font-bold text-gray-100 hover:text-red-400 ">
               {" "}
               KANAK JAIN
               {/* ARPIT RATHORE */}
@@ -37,17 +37,17 @@ const About = () => {
           <p className="mt-10 text-xl text-gray-400 lg:text-lg">
             My prowess extends gracefully to programming languages, libraries,
             and frameworks such as{" "}
-            <a class=" font-bold text-gray-100 hover:text-red-400 ">
+            <a className=" font-bold text-gray-100 hover:text-red-400 ">
               {" "}
               HTML, CSS, JavaScript, React, and Node.js.{" "}
             </a>
             Trusty companions like{" "}
-            <a class=" font-bold text-gray-100 hover:text-red-400 ">
+            <a className=" font-bold text-gray-100 hover:text-red-400 ">
               Git, GitHub, and
             </a>
             , and{" "}
-            <a class=" font-bold text-gray-100 hover:text-red-400 lg:gap-x-2">
-              Visual Studio 
+            <a className=" font-bold text-gray-100 hover:text-red-400 lg:gap-x-2">
+              Visual Studio
             </a>
             are my guides. Unwavering in my ardor for learning, I'm an eager
             newcomer determined to master novel skills. My journey spills beyond

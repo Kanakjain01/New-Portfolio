@@ -36,7 +36,7 @@ const Contact = () => {
         </div>
         <div className="mt-20 w-[100%] lg:pl-12 ">
           <div className="mt-6 flex  ">
-            <div class="  hover:animate-pulse ">
+            <div className="  hover:animate-pulse ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -52,12 +52,12 @@ const Contact = () => {
                 />
               </svg>
             </div>
-            <div class="ml-4">
+            <div className="ml-4">
               <h1 className=" text-xl mt-2 text-gray-500">6399821605</h1>
             </div>
           </div>
           <div className="mt-6 flex  ">
-            <div class="   hover:animate-pulse">
+            <div className="   hover:animate-pulse">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -73,14 +73,14 @@ const Contact = () => {
                 />
               </svg>
             </div>
-            <div class="ml-4">
+            <div className="ml-4">
               <h1 className=" text-xl mt-2 text-gray-500">
                 kanakjain639@gmail.com
               </h1>
             </div>
           </div>
           <div className="mt-6 flex  ">
-            <div class="  hover:animate-pulse ">
+            <div className="  hover:animate-pulse ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -101,7 +101,7 @@ const Contact = () => {
                 />
               </svg>
             </div>
-            <div class="ml-4">
+            <div className="ml-4">
               <h1 className=" text-xl text-gray-500 mt-2">
                 Agra , U.P , India
               </h1>
